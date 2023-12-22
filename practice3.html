@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Form</h1>
+    <form action="">
+        <div>
+            <label>User Name</label>
+            <input type="text">
+        </div><br>
+    
+        <div>
+            <label>Possword</label>
+            <input type="possword" required>
+       </div><br>
+       <div>
+            <label>Contact</label>
+            <input type="Number">
+       </div><br>
+        <div>
+            <label>Email</label>
+            <input type="Email">
+        </div><br><div>
+            <label>Java</label>
+            <input type="checkbox">
+        </div><br><div>
+            <label>Python</label>
+            <input type="checkbox">
+        </div><br><div>
+            <label>SQL</label>
+            <input type="checkbox">
+        </div><br><div>
+            <input type="radio">
+            <label>Online</label>
+        </div><br><div>
+            <input type="radio">
+            <label>Offline</label>
+        </div><br><div>
+            <label>Resume</label>
+            <input type="file">
+        </div><br><div>
+            <select>
+                <option>35000</option>
+                <option>75000</option>
+                <option>55000</option>
+            </select>
+        </div><br>
+        <button type="submit">submit</button>
+        <button type="reset">reset</button>   
+    </form>
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Registration Form</h1>
+    <form action="submit.php" method="POST">
+        <!--Text Input--->
+        <label for="firstname">First Name:</label>
+            <input type="text" name="firstname"  id="firstname" requires>
+            <br>
+            <!--Checkbox-->
+            <label>Interests</label>
+            <input type="checkbox" name="interests" value="sports"> Sports
+            <input type="checkbox" name="interests" value="music"> Music
+            <input type="checkbox" name="interests" value="travel"> Travel
+            <br>
+
+
+            <!--Radio Button-->
+            <label>Gender:</label>
+            <input type="radio" name="gender" value="male">
+            <input type="radio" name="gender" value="female">
+            <br>
+        
+        <!--Data Input-->
+        <label for="birthdate">Date of Birth:</label>
+        <input type="date" name="birthdate"  id="birthdate">
+        <br>
+        
+        <!--Text Area-->
+        <label for="comments">Comments:</label> 
+        <textarea name="comments" id="comments" rows="4" cols="50"></textarea> 
+        <br>
+        
+        <!--Drop-Down Menu-->
+        <label for="country">Country:</label>
+        <select name="country" id="copuntry">
+            <option value="usa">United States</option>
+            <option value="canada">Canada</option>
+            <option value="uk">United Kingdom</option>
+        </select><br>
+
+        <!--File Input-->
+        <label for="fileUpload">Upload a file:</label>
+        <input type="file" name="fileUpload" id="fileUpload">
+        <br>
+
+        <!--Buttons-->
+        <input type="submit" value="Sign Up">
+        <input type="reset" value="Reset">                 
+    </form>
+</body>
+</html>
